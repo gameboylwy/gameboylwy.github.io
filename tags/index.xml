@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 合肥沃时科技有限公司</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on 合肥沃时科技有限公司</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 May 2018 12:04:06 -0500</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code</title>
+      <link>https://example.org/tags/code/</link>
+      <pubDate>Sun, 06 May 2018 12:04:06 -0500</pubDate>
+      
+      <guid>https://example.org/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coffee</title>
+      <link>https://example.org/tags/coffee/</link>
+      <pubDate>Fri, 13 Apr 2018 11:58:39 -0500</pubDate>
+      
+      <guid>https://example.org/tags/coffee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Images</title>
+      <link>https://example.org/tags/images/</link>
+      <pubDate>Fri, 13 Apr 2018 11:58:39 -0500</pubDate>
+      
+      <guid>https://example.org/tags/images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ipsum</title>
+      <link>https://example.org/tags/ipsum/</link>
+      <pubDate>Sun, 06 May 2018 12:04:06 -0500</pubDate>
+      
+      <guid>https://example.org/tags/ipsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Words</title>
+      <link>https://example.org/tags/words/</link>
+      <pubDate>Sun, 06 May 2018 12:04:06 -0500</pubDate>
+      
+      <guid>https://example.org/tags/words/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

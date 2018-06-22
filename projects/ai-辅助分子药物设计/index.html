@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Website Description">
+
+<base href="https://example.org/">
+<title>
+
+
+     AI辅助分子药物设计 
+
+</title>
+<link rel="canonical" href="https://example.org/projects/ai-%E8%BE%85%E5%8A%A9%E5%88%86%E5%AD%90%E8%8D%AF%E7%89%A9%E8%AE%BE%E8%AE%A1/">
+
+
+
+
+
+
+<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+
+
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/nunito_sans.css">
+
+
+    <link rel="stylesheet" href="/css/light-style.css">
+
+
+
+
+
+
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+<div class="section" id="top">
+    
+
+    <div class="container hero  fade-in one ">
+        
+        <h1 class="bold-title is-1">AI辅助分子药物设计</h1>
+    </div>
+    
+
+    
+    <div class="section  fade-in two ">
+        <div class="container">
+            
+            <hr>
+<nav class="nav nav-center">
+    <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <div id="nav-menu" class="nav-left nav-menu">
+      <span class="nav-item">
+        <a href="/">主页</a>
+      </span>
+      <span class="nav-item">
+        <a href="/about">关于我们</a>
+      </span>
+      
+      <span class="nav-item">
+        
+        <a href="/projects">行业解决方案</a>
+        
+      </span>
+      
+      
+      <span class="nav-item">
+        
+        <a href="/blog">沃时动态</a>
+        
+      </span>
+      
+      <span class="nav-item">
+        <a href="/contact">联系我们</a>
+      </span>
+    
+      <span class="nav-item">
+        <a href="https://example.org/index.xml"><i class="fa fa-rss"></i></a>
+      </span>
+    
+    </div>
+</nav>
+<hr>
+
+        </div>
+        
+
+        <div class="container markdown  fade-in two  top-pad">
+            
+            
+            <div class="has-text-centered">
+              <img src="img/drug.jpg" class="img-responsive">
+            </div>
+            
+            <h1 style = "line-height:2">
+<head>
+<font size = 2.5>
+    <p style = "text-align:justify">
+传统分子药物研发过程涉及潜在上万条反应路径，数千研发人员（操作工人），高度依赖操作人员仪器设备操作水平，经验知识等。因此具有高人力成本，高不确定性，低附加值，长时间、大资本、高风险成本等几大问题。
+针对上述问题，沃时科技自主研发的AI-辅助分子药物研发工具箱（分子药物工具箱）旨在缩减制药公司候选药物筛选时间，加速药物研发进程。工具箱基于Machine Learning, Deep Learning等AI领域前沿技术，关联药物代谢、药代动力学、药理学和毒理学研究构建规范化模型。结合药企百万级量级分子数据库和目标分子药物结构，缩减分子药物合成路径数量，从而为客户达到降低人力成本，缩减时间成本等目的。沃时公司自主研发的AMDSD在AI-assisted Molecular Drug Synthesis Design(AMDSD) 算法基础上将动态分子药物研发规划问题以及多阶段随机规划问题分解为一系列背包问题，这些问题决定了在规划期间的所有决策。</br></br>所有决策变量被算法转换为待包裹的项目。对于动态分子药物研发多阶段规划问题，将在每个时间段为每个符合条件的目标创建项目。算法的下一步是设置项目的权重。生成项目并设置其权重后，AMDSD将时间段设置为零，计算每个物品的时间相关值，并确定哪些物品可以包装在初始背包中。该算法基于潜在中断，不确定情况下每个（分子中间体，成本，利润）的预期效用来计算项目值。 AMDSD算法的目标是在潜在的中断及不确定情形下使背包（问题）的收益价值最大化，即规划问题的总预期效用，并受限于重量约束，这是由给定时间段内的可用资源决定的。
+在AMDSD算法中，决策变量是一个二进制变量，用于决定项目是否被打包，然后在时间t转换为对应于动态分子药物研发多阶段规划的决策行为。在初始背包中的项目代表了在初始时间段做出的决策。根据哪些分子中间体被选中以及是否有任何不确定事件的发生，AMDSD能够自我决定何时产生新的背包问题以及产生多少个背包。算法继续迭代，产生和解决新的子背包问题，直到达到规划界限的终点。终止时，AMDSD为动态分子药物研发问题构建了一系列可行的解决方案和一个边界上限。
+
+    </p>
+</font>
+</head>
+
+</h1>
+
+        </div>
+        
+
+        <div class="disqus">
+            
+        </div>
+
+        <div class="container has-text-centered top-pad">
+            <hr>
+            <a href="#top">
+                <i class="fa fa-arrow-up"></i>
+            </a>
+            <hr>
+        </div>
+
+        <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text"><a href="https://www.hourstec.com" target="_blank" rel="noopener">版权所有：合肥沃时科技有限公司</a>
+    
+    </div>
+</div>
+
+    </div>
+    
+</div>
+
+
+
+<script>
+    $('a[href^="https:\/\/example.org\/projects\/ai-%E8%BE%85%E5%8A%A9%E5%88%86%E5%AD%90%E8%8D%AF%E7%89%A9%E8%AE%BE%E8%AE%A1\/#"]').click(function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 500);
+        return false;
+    })
+</script>
+
+</body>
